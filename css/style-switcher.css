@@ -6,7 +6,7 @@
   width: 200px;
   border: 1px solid var(--bg-black-50);
   background: var(--bg-black-100);
-  z-index: 5px;
+  z-index: 101;
   border-radius: 5px;
   transition: all 0.3s ease;
   transform: translateX(100%);
@@ -48,6 +48,7 @@
   margin: 0 0 10px;
   color: var(--text-black-700);
   font-size: 16px;
+  font-weight: 600;
   text-transform: capitalize;
 }
 
@@ -81,5 +82,5 @@
 }
 
 .style-switcher .color-5 {
-  background: #f021b2;
+  background: #32f4f7;
 }

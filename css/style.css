@@ -390,7 +390,7 @@ h3.my-profession {
   color: var(--skin-color);
 }
 
-.about .about-content .about-text span p {
+.about .about-content .about-text p {
   font-size: 16px;
   line-height: 25px;
   color: var(--text-black-700);
@@ -423,7 +423,7 @@ h3.my-profession {
 }
 
 .about .about-content .personal-info .buttons {
-  margin: 30px;
+  margin-top: 30px;
 }
 
 .about .about-content .personal-info .buttons .btn {
@@ -442,6 +442,12 @@ h3.my-profession {
   margin-bottom: 30px;
 }
 
+.about .about-content .skills .skill-item img {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
 .about .about-content .skills .skill-item h5 {
   line-height: 40px;
   font-weight: 600;
@@ -457,6 +463,15 @@ h3.my-profession {
   width: 100%;
   position: relative;
 }
+
+/* .about .about-content .skills .skill-item .progress-in {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border: 4px;
+  background-color: var(--skin-color);
+} */
 
 .about .about-content .education,
 .about .about-content .experience {
@@ -530,6 +545,7 @@ h3.my-profession {
 .about .about-content .timeline .timeline-title {
   font-weight: 700;
   font-size: 18px;
+  margin-bottom: 15px;
   text-transform: capitalize;
   color: var(--text-black-900);
 }
@@ -571,6 +587,7 @@ h3.my-profession {
 
 .portfolio .portfolio-item-inner .portfolio-img img {
   width: 100%;
+  height: 200px;
   display: block;
 }
 
@@ -610,6 +627,9 @@ h3.my-profession {
   color: var(--text-black-900);
   text-transform: capitalize;
   margin: 15px 0 5px;
+}
+.contact .contact-info-item .social-icon a img {
+  height: 45px;
 }
 
 .contact .contact-info-item p {
@@ -663,6 +683,10 @@ h3.my-profession {
 }
 
 @media (max-width: 1199px) {
+  .section .container {
+    padding-top: 70px;
+  }
+
   .aside {
     left: -270px;
   }
@@ -689,7 +713,12 @@ h3.my-profession {
 }
 
 @media (max-width: 991px) {
-  .contact .contact-info-item,
+  portfolio
+    .portfolio-item-inner
+    .portfolio-img
+    img
+    .contact
+    .contact-info-item,
   .portfolio .portfolio-item {
     flex: 0 0 50%;
     max-width: 50%;
@@ -706,7 +735,13 @@ h3.my-profession {
 }
 
 @media (max-width: 767px) {
-  .contact .contact-form .col-6,
+  portfolio
+    .portfolio-item-inner
+    .portfolio-img
+    img
+    .contact
+    .contact-form
+    .col-6,
   .contact .contact-info-item,
   .portfolio .portfolio-item,
   .about .about-content .experience,
