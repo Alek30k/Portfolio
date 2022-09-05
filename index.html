@@ -146,7 +146,7 @@
                           href="#contact"
                           data-section-index="1"
                           class="btn hire-me"
-                          >Hire Me</a
+                          >Contact me</a
                         >
                       </div>
                     </div>
@@ -232,6 +232,16 @@
                 <div class="portfolio-item-inner shadow-dark">
                   <div class="portfolio-img">
                     <img src="./images/portfolio/Selección_001.png" alt="" />
+                    <div class="layer">
+                      <h3>Universal Music</h3>
+                      <p>Musical instruments shop.</p>
+                      <a
+                        href="https://universalmusic-henry.web.app/"
+                        target="_blank"
+                        rel="noopener"
+                        ><i class="fa-solid fa-up-right-from-square"></i
+                      ></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -239,6 +249,16 @@
                 <div class="portfolio-item-inner shadow-dark">
                   <div class="portfolio-img">
                     <img src="./images/portfolio/Selección_002.png" alt="" />
+                    <div class="layer">
+                      <h3>console.Dog()</h3>
+                      <p>Single Page Application with the theme of dogs.</p>
+                      <a
+                        href="https://dogs-project-alejandro.vercel.app/"
+                        target="_blank"
+                        rel="noopener"
+                        ><i class="fa-solid fa-up-right-from-square"></i
+                      ></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -246,6 +266,19 @@
                 <div class="portfolio-item-inner shadow-dark">
                   <div class="portfolio-img">
                     <img src="./images/portfolio/Selección_003.png" alt="" />
+                    <div class="layer">
+                      <h3>Food Taste</h3>
+                      <p>
+                        Single Page Application that allows me to manage a shop
+                        tasty foods.
+                      </p>
+                      <a
+                        href="https://alejandro-cabrera-responsive-restaurant.netlify.app/"
+                        target="_blank"
+                        rel="noopener"
+                        ><i class="fa-solid fa-up-right-from-square"></i
+                      ></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -253,6 +286,19 @@
                 <div class="portfolio-item-inner shadow-dark">
                   <div class="portfolio-img">
                     <img src="./images/portfolio/Selección_005.png" alt="" />
+                    <div class="layer">
+                      <h3>Snake</h3>
+                      <p>
+                        The classic snake game. The goal is to fill the map with
+                        your body as long as possible.
+                      </p>
+                      <a
+                        href="https://alejandro-cabrera-game-snake.netlify.app/"
+                        target="_blank"
+                        rel="noopener"
+                        ><i class="fa-solid fa-up-right-from-square"></i
+                      ></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -260,6 +306,16 @@
                 <div class="portfolio-item-inner shadow-dark">
                   <div class="portfolio-img">
                     <img src="./images/portfolio/Selección_006.png" alt="" />
+                    <div class="layer">
+                      <h3>Memory Game</h3>
+                      <p>The traditional memory game. complete and have fun</p>
+                      <a
+                        href="https://alejandro-cabrera-juego-memoria.netlify.app/"
+                        target="_blank"
+                        rel="noopener"
+                        ><i class="fa-solid fa-up-right-from-square"></i
+                      ></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -267,6 +323,16 @@
                 <div class="portfolio-item-inner shadow-dark">
                   <div class="portfolio-img">
                     <img src="./images/portfolio/Selección_018.png" alt="" />
+                    <div class="layer">
+                      <h3>AC-headphones</h3>
+                      <p>Single page hearing aid store app.</p>
+                      <a
+                        href="https://alejandro-cabrera-headphones.netlify.app/"
+                        target="_blank"
+                        rel="noopener"
+                        ><i class="fa-solid fa-up-right-from-square"></i
+                      ></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -325,13 +391,15 @@
               I'M VERY RESPONSIVE TO MESSAGES
             </h4>
             <div class="row">
-              <div class="contact-form padd-15">
+              <form name="contactForm" netlify class="contact-form padd-15">
                 <div class="row">
                   <div class="form-item col-6 padd-15">
-                    <div class="form-froup">
+                    <div class="form-group">
                       <input
                         type="text"
                         class="form-control"
+                        name="name"
+                        id="name"
                         placeholder="Name"
                       />
                     </div>
@@ -340,6 +408,8 @@
                     <div class="form-froup">
                       <input
                         type="email"
+                        name="email"
+                        id="email"
                         class="form-control"
                         placeholder="Email"
                       />
@@ -351,6 +421,8 @@
                     <div class="form-froup">
                       <input
                         type="text"
+                        name="subjet"
+                        id="subjet"
                         class="form-control"
                         placeholder="Subject"
                       />
@@ -361,9 +433,9 @@
                   <div class="form-item col-12 padd-15">
                     <div class="form-froup">
                       <textarea
-                        name=""
+                        name="mensaje"
+                        id="mensaje"
                         class="form-control"
-                        id=""
                         placeholder="Message"
                       ></textarea>
                     </div>
@@ -371,10 +443,10 @@
                 </div>
                 <div class="row">
                   <div class="form-item col-12 padd-15">
-                    <button type="submit" class="btn">Send Message</button>
+                    <input type="submit" class="btn" value="Send Message" />
                   </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </section>
