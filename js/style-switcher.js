@@ -10,6 +10,7 @@ window.addEventListener("scroll", () => {
 });
 
 const alternateStyles = document.querySelectorAll(".alternate-style");
+
 function setActiveStyle(color) {
   alternateStyles.forEach((style) => {
     if (color === style.getAttribute("title")) {
@@ -26,6 +27,7 @@ dayNight.addEventListener("click", () => {
   dayNight.querySelector("i").classList.toggle("fa-moon");
   document.body.classList.toggle("dark");
 });
+
 window.addEventListener("load", () => {
   if (document.body.classList.contains("dark")) {
     dayNight.querySelector("i").classList.add("fa-sun");
