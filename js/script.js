@@ -1,9 +1,9 @@
-var typed = new Typed(".typing", {
-  strings: ["", "", "Full Stack Web Developer"],
-  typeSpeed: 100,
-  BackSpeed: 60,
-  loop: true,
-});
+// var typed = new Typed(".typing", {
+//   strings: ["", "", "Full Stack Web Developer"],
+//   typeSpeed: 100,
+//   BackSpeed: 60,
+//   loop: true,
+// });
 
 const nav = document.querySelector(".nav"),
   navList = nav.querySelectorAll("li"),

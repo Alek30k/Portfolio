@@ -16,6 +16,19 @@
   transform: translateX(-25px);
 }
 
+.download-btn.open {
+  transform: translateX(-208px);
+  margin-top: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(194, 184, 184);
+  border-radius: 30px;
+  width: 120px;
+  height: 25px;
+  color: var(--text-black-900);
+}
+
 .style-switcher .s-icon {
   position: absolute;
   height: 40px;
@@ -42,6 +55,9 @@
 
 .style-switcher .day-night {
   top: 55px;
+}
+.style-switcher .style-download {
+  top: 110px;
 }
 
 .style-switcher h4 {
@@ -82,5 +98,5 @@
 }
 
 .style-switcher .color-5 {
-  background: #32f4f7;
+  background: #13b2b5;
 }

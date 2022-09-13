@@ -3,10 +3,12 @@ styleSwitcherToggle.addEventListener("click", () => {
   document.querySelector(".style-switcher").classList.toggle("open");
 });
 
-window.addEventListener("scroll", () => {
-  if (document.querySelector(".style-switcher").classList.contains("open")) {
-    document.querySelector(".style-switcher").classList.remove("open");
-  }
+document.querySelectorAll(".section").forEach((section) => {
+  section.addEventListener("click", () => {
+    if (document.querySelector(".style-switcher").classList.contains("open")) {
+      document.querySelector(".style-switcher").classList.remove("open");
+    }
+  });
 });
 
 const alternateStyles = document.querySelectorAll(".alternate-style");
@@ -34,4 +36,9 @@ window.addEventListener("load", () => {
   } else {
     dayNight.querySelector("i").classList.add("fa-moon");
   }
+});
+
+const download = document.querySelector(".style-download");
+download.addEventListener("click", () => {
+  document.querySelector(".download-btn").classList.toggle("open");
 });
