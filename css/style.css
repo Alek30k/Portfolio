@@ -875,6 +875,17 @@ h3.my-profession span {
   .aside.open {
     width: 100%;
   }
+  h3.my-profession span {
+    font-size: 20px;
+    border-right: 2px solid;
+  }
+}
+
+@media (max-width: 326px) {
+  h3.my-profession span {
+    font-size: 18px;
+    border-right: 2px solid;
+  }
 }
 
 @media (max-width: 290px) {
