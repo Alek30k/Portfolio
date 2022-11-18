@@ -665,6 +665,27 @@ h3.my-profession span {
   text-align: center;
 }
 
+.verMasVideo {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.verMasBtn {
+  background-color: transparent;
+  font-size: 14px;
+  padding: 12px 20px;
+  margin-left: 45%;
+  margin-bottom: 15px;
+  border: none;
+  display: inline-block;
+  white-space: nowrap;
+  color: var(--skin-color);
+  cursor: pointer;
+}
+
 .contact-title {
   color: var(--text-black-900);
   text-align: center;
@@ -810,7 +831,7 @@ h3.my-profession span {
     .portfolio-img
     img
     .contact
-    .contact-form
+    .contact-formdisplay
     .col-6,
   .contact .contact-info-item,
   .portfolio .portfolio-item,

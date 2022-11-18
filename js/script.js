@@ -83,3 +83,25 @@ function asideSectionTogglerBtn() {
     allSection[i].classList.toggle("open");
   }
 }
+
+// function mostrarMas() {
+//   document.getElementById("verMas").style.display = "block";
+// }
+// function mostrarMenos() {
+//   document.getElementById("verMas").style.display = "none";
+// }
+
+let verMasBtn = document.getElementById("verMasBtn");
+
+let verMasVideo = document.getElementById("verMasVideo");
+
+verMasBtn.addEventListener("click", toggleText);
+
+function toggleText() {
+  verMasVideo.classList.toggle("show");
+  if (verMasVideo.classList.contains("show")) {
+    verMasBtn.innerHTML = "See Less";
+  } else {
+    verMasBtn.innerHTML = "See More";
+  }
+}
