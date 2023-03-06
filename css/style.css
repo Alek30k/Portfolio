@@ -373,6 +373,7 @@ h3.my-profession span {
   max-width: 40%;
   text-align: center;
   position: relative;
+  padding-bottom: 20px;
 }
 
 .home-img::after {
@@ -382,7 +383,7 @@ h3.my-profession span {
   width: 80px;
   border-bottom: 10px solid var(--skin-color);
   border-right: 10px solid var(--skin-color);
-  right: 22px;
+  right: 5px;
   bottom: -13px;
 }
 .home-img::before {
@@ -393,7 +394,7 @@ h3.my-profession span {
   border-top: 10px solid var(--skin-color);
   border-left: 10px solid var(--skin-color);
   left: 22px;
-  top: -20px;
+  top: 10px;
 }
 
 .home .home-img img {
